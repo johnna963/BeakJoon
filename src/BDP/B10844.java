@@ -6,7 +6,7 @@ public class B10844 {
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		final long mod =  1000000000;
+		final long mod = 1000000000;
 		long[][] arr = new long[N][10];
 		
 		for (int i = 1; i < 10; i++) {
