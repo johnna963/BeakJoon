@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class B1260 {
-	// DFS와 BFS
+	//DFS와 BFS
 	static int N;
 	static int M;
 	static int V;

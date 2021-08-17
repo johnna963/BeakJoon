@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class B10974 {
-	// 모든순열
+	//모든순열
 	static int N;
 	static int[] arr;
 	static boolean[] visited;
