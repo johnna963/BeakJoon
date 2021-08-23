@@ -10,9 +10,9 @@ import java.util.StringTokenizer;
 
 public class B1260 {
 	// DFS와 BFS tree순회
-	static int N;
-	static int M;
-	static int V;
+	static int N;//정점
+	static int M;//간선
+	static int V;//시작
 	static LinkedList<Integer>[] tree;
 	static boolean[] visited;
 	@SuppressWarnings("unchecked")
@@ -49,7 +49,6 @@ public class B1260 {
 		DFS(V,sb);
 		System.out.println(sb);
 		
-		Arrays.fill(visited, false);
 		BFS(V,Sb);
 		System.out.println(Sb);
 		}
@@ -69,14 +68,14 @@ public class B1260 {
 	static void BFS(int v, StringBuilder Sb) {
 		 Queue<Integer> q = new LinkedList<Integer>();
 		 q.add(v);
-		 visited[v] = true;
+		 visited[v] = false;
 		 while(!q.isEmpty()) {
 			 int w = q.poll();
 			 Sb.append(w).append(" ");
 			 for (int k : tree[w]) {
-				 if(!visited[k]) {
+				 if(visited[k]) {
 					 q.add(k);
-					 visited[k]=true;
+					 visited[k]=false;
 				 }
 			}
 			 

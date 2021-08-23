@@ -3,7 +3,6 @@ package BGraph;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
@@ -11,7 +10,10 @@ import java.util.StringTokenizer;
 public class B2468 {
 	/**
 	 * 물의 높이/dr, dc/구역 카운팅 
-	 * 방문했는가? */
+	 * 방문했는가? 
+	 * 저장은 맥스힙으로 하자
+	 * 물의 높이와 방문하지 않았을때 dfs시작
+	 * */
 	static int N;
 	static int[][] arr;
 	static boolean[][] visited;
