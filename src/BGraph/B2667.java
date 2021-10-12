@@ -7,7 +7,8 @@ import java.util.Collections;
 
 public class B2667 {
 	/**단지번호 붙이기
-	 * 간단한 dfs문제*/
+	 * 간단한 dfs문제
+	 * 332ms*/
 	static int N;
 	static int[][] map;
 	static boolean[][] visited;
