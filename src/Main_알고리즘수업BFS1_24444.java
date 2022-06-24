@@ -22,7 +22,6 @@ public class Main_알고리즘수업BFS1_24444 {
 		answer = new int[N+1];
 		for (int i = 0; i < N+1; i++) {
 			arr[i] = new ArrayList<>();
-			Collections.sort(arr[i]);
 		}
 		
 		for (int i = 0; i < M; i++) {
