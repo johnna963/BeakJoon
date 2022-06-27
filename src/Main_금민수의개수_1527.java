@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_ê¸ˆë¯¼ìˆ˜ì˜ê°œìˆ˜_1527 {
+public class Main_±İ¹Î¼öÀÇ°³¼ö_1527 {
 	static int answer=0;
 	static int min;
 	static int max;
