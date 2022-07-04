@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_¹ÂÅ»¸®½ºÅ©_12869 {
+public class Main_ë®¤íƒˆë¦¬ìŠ¤í¬_12869 {
 	static int min;
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
